@@ -14,6 +14,12 @@ export const services = [
       'Integraciones con formularios, CRM y analítica',
     ],
     highlight: 'Ideal para negocios que necesitan una presencia digital sólida.',
+    process: [
+      'Estructuramos los objetivos: Planificamos la navegación, páginas clave y puntos de conversión.',
+      'Diseñamos la interfaz: Creamos un diseño responsive, atractivo y fiel a la identidad de tu marca.',
+      'Desarrollamos el código: Maquetamos la web y la conectamos con tu CRM, analítica o pasarelas.',
+      'Testeamos y publicamos: Revisamos la velocidad y seguridad antes del lanzamiento final.',
+    ],
   },
   {
     slug: 'desarrollo-apps',
@@ -30,6 +36,12 @@ export const services = [
       'Automatización de procesos',
     ],
     highlight: 'Perfecto para transformar una idea en una herramienta real.',
+    process: [
+      'Definimos la experiencia (UX): Conceptualizamos la lógica de la app, el flujo y los requisitos.',
+      'Modelamos la arquitectura: Diseñamos una estructura de código limpia, segura y escalable.',
+      'Programamos la aplicación: Desarrollamos el frontend y backend con tecnologías modernas.',
+      'Lanzamos a producción: Publicamos en las tiendas oficiales y gestionamos el mantenimiento.',
+    ],
   },
   {
     slug: 'consultoria',
@@ -46,6 +58,12 @@ export const services = [
       'Planificación digital',
     ],
     highlight: 'Pensado para empresas que necesitan claridad antes de invertir.',
+    process: [
+      'Auditamos tu situación: Evaluamos tus herramientas actuales, procesos y bloqueos de negocio.',
+      'Definimos la hoja de ruta: Seleccionamos las tecnologías ideales para maximizar tu inversión.',
+      'Diseñamos el plan de acción: Elaboramos la propuesta estratégica con plazos y prioridades claras.',
+      'Acompañamos la transición: Aseguramos que la adopción de las nuevas soluciones sea un éxito.',
+    ],
   },
   {
     slug: 'seo',
@@ -62,5 +80,11 @@ export const services = [
       'Auditoría de indexación',
     ],
     highlight: 'Clave para atraer tráfico cualificado de forma sostenible.',
+    process: [
+      'Analizamos tu posicionamiento: Estudiamos tus palabras clave actuales, tu sector y a tus competidores.',
+      'Trazamos la estrategia SEO: Diseñamos un plan de contenidos, arquitectura web y optimización técnica.',
+      'Implementamos las mejoras: Optimizamos el código, la velocidad de carga y creamos contenido útil.',
+      'Monitorizamos resultados: Medimos la evolución de las palabras clave y corregimos desviaciones.',
+    ],
   },
 ]
