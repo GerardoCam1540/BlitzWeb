@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import ServicesGallery from './components/ServicesGallery';
 import ProjectPlanner from './components/ProjectPlanner';
 import ContactForm from './components/ContactForm';
+import Team from './components/Team';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
 
   // Handle active section linking while scrolling using dynamic Intersection Observer
   useEffect(() => {
-    const sections = ['inicio', 'servicios', 'planificador', 'contacto'];
+    const sections = ['inicio', 'servicios', 'planificador', 'contacto', 'equipo'];
     
     const observerOptions = {
       root: null,
@@ -115,6 +116,17 @@ export default function App() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <ContactForm prepopulatedMessage={plannerMessage} />
+        </motion.div>
+
+        {/* TEAM MEMBERS GRID SECTION */}
+        <motion.div
+          id="section-team-wrapper"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+        >
+          <Team />
         </motion.div>
       </main>
 

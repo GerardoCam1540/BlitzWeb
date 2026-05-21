@@ -23,6 +23,7 @@ export default function Header({ activeSection }: HeaderProps) {
     { id: 'servicios', label: 'Servicios' },
     { id: 'planificador', label: 'Planificador' },
     { id: 'contacto', label: 'Contacto' },
+    { id: 'equipo', label: 'Equipo' },
   ];
 
   const scrollToSection = (id: string) => {
