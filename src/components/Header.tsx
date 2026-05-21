@@ -96,14 +96,14 @@ export default function Header({ activeSection }: HeaderProps) {
         {/* CTA Button */}
         <div className="hidden md:flex items-center gap-3">
           <div className="hidden lg:flex items-center gap-2 font-mono text-[10px] text-zinc-400 uppercase tracking-widest bg-zinc-900/45 border border-white/10 py-1.5 px-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-brand-neon" />
-            <span>DISPONIBLE / 2026</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-brand-neon animate-pulse" />
+            <span>A VELOCIDAD BLITZ</span>
           </div>
           <button
             onClick={() => scrollToSection('planificador')}
             className="group relative px-5 py-3 rounded-none font-space font-black text-[10px] uppercase tracking-widest text-black bg-white select-none overflow-hidden transition-all duration-300 cursor-pointer hover:bg-brand-neon"
           >
-            Cotizar App
+            Cotiza tu proyecto
           </button>
         </div>
 

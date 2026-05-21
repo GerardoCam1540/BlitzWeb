@@ -21,7 +21,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     role: 'Co-Fundador & IA Specialist',
     bio: 'Ingeniero en Informática y Desarrollador Full Stack con especialización en Inteligencia Artificial. Como co-fundador de Blitzcore, proveo desarrollo de soluciones tecnológicas innovadoras, combinando el poder de la IA con arquitectura web escalable para transformar ideas en productos digitales de alto impacto.',
     avatar: 'BR',
-    specialty: 'Inteligencia Artificial // Next.js // Python',
+    specialty: 'Inteligencia Artificial // Next.js // Python // JavaScript // Node.js',
     codeSnippet: 'const brain = new NeuralNetwork();\nbrain.train(data);\nconst solution = brain.predict(idea);',
     github: 'https://github.com',
     linkedin: 'https://linkedin.com'
@@ -29,21 +29,21 @@ const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 'samuel',
     name: 'Samuel Mielgo',
-    role: 'Co-Fundador & Frontend Engineer',
-    bio: 'Ingeniero de Software especializado en Frontend y Experiencia de Usuario. Apasionado por la creación de interfaces interactivas ultra rápidas, micro-animaciones fluidas y el diseño de sistemas visuales disruptivos y modernos para la web del futuro.',
+    role: 'Co-Fundador & Desarrollador Full Stack',
+    bio: 'Desarrollador Full Stack con enfoque en desarrollo web moderno. Como co-fundador de Blitzcore, participo en la creación de soluciones tecnológicas innovadoras, combinando diseño, funcionalidad y herramientas digitales para desarrollar experiencias web dinámicas, escalables y orientadas al futuro.',
     avatar: 'SM',
-    specialty: 'UI/UX // Framer Motion // React 19',
-    codeSnippet: 'const ui = new UserInterface();\nui.enableAesthetics({ premium: true });\nui.render();',
+    specialty: 'React // JavaScript // Node.js // Web Apps',
+    codeSnippet: 'const app = new ModernWebApp();\napp.optimizePerformance();\napp.renderFuture();',
     github: 'https://github.com',
     linkedin: 'https://linkedin.com'
   },
   {
     id: 'gerardo',
     name: 'Gerardo Camejo',
-    role: 'Co-Fundador & Cloud Architect',
-    bio: 'Arquitecto Cloud y especialista en DevOps. Enfocado en la optimización de servidores, automatización de despliegues globales (CI/CD) y seguridad de infraestructura crítica para garantizar una escala masiva sin pérdida de rendimiento.',
+    role: 'Co-Fundador & Desarrollador Full Stack',
+    bio: 'Desarrollador Full Stack. Como co-fundador de Blitzcore, me especializo en la integración de redes, administración de servidores y desarrollo web de extremo a extremo, asegurando que cada plataforma cuente con una arquitectura robusta, segura y eficiente en todas sus capas de desarrollo.',
     avatar: 'GC',
-    specialty: 'Docker // AWS // Kubernetes // CI-CD',
+    specialty: 'Linux // SQL // JavaScript // Node.js',
     codeSnippet: 'docker run -d --name blitz-prod -p 443:443 \\\n  --restart always \\\n  blitzcore/web:latest',
     github: 'https://github.com',
     linkedin: 'https://linkedin.com'

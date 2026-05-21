@@ -1,4 +1,4 @@
-import { Code, Terminal, Heart, Scale } from 'lucide-react';
+import { Code, Terminal, Heart, Scale, Zap } from 'lucide-react';
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -26,14 +26,19 @@ export default function Footer() {
         
         {/* Brand Left Columns (Span 5) */}
         <div className="md:col-span-5 text-left flex flex-col gap-5">
-          <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-none bg-white/5 border border-white/15 flex items-center justify-center">
-              <Code className="w-4 h-4 text-brand-neon" />
+          <button
+            onClick={() => scrollToSection('inicio')}
+            className="flex items-center gap-2 group cursor-pointer focus:outline-none w-fit"
+          >
+            <div className="flex items-center text-white font-mono font-bold text-sm tracking-tighter select-none">
+              &lt;<Zap className="w-3.5 h-3.5 text-brand-neon fill-brand-neon animate-pulse mx-[1px]" />&gt;
             </div>
-            <span className="font-space font-black uppercase text-lg text-white tracking-wider">
-              BLITZ<span className="text-brand-neon">CORE</span>
+            <span className="font-space font-black text-lg tracking-wider text-white flex items-center gap-0.5">
+              BLITZ
+              <span className="text-brand-neon">CORE</span>
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-brand-neon shadow-[0_0_8px_#00FF00] ml-1 self-center animate-pulse" />
             </span>
-          </div>
+          </button>
           <p className="font-space text-xs text-zinc-500 leading-relaxed max-w-sm">
             Estructuras digitales avanzadas. Diseñamos, optimizamos y compilamos ecosistemas de software robustos cuidando cada píxel, transición y factor de conversión.
           </p>
@@ -50,7 +55,7 @@ export default function Footer() {
         <div className="md:col-span-3 text-left">
           <h5 className="font-mono text-[9px] text-zinc-500 uppercase tracking-widest mb-4 font-bold">// DIRECTORIO</h5>
           <ul className="space-y-3 font-space text-xs">
-            {['inicio', 'servicios', 'planificador', 'contacto'].map((sec) => (
+            {['inicio', 'servicios', 'planificador', 'contacto', 'equipo'].map((sec) => (
               <li key={sec}>
                 <button
                   onClick={() => scrollToSection(sec)}
