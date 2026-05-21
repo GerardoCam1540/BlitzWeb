@@ -1,0 +1,6 @@
+{
+  "name": "BlitzCore Landing Page",
+  "description": "A disruptive, minimal, and highly polished landing page for digital services including Web Development, App Development, SEO, and Consulting, with fluid scroll interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
